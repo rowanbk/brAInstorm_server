@@ -105,3 +105,6 @@ venv.bak/
 
 .vscode/
 settings.json
+
+# stanford data
+stanford-corenlp-full-2018-10-05
