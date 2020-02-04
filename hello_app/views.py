@@ -21,7 +21,7 @@ def get_sentiment():
   #out, err = process.communicate()
   #out = out.decode("utf-8")
   #out_sentiment = out.rstrip().rsplit('\n',1)[-1].lstrip()
-  sentiment = 0
+  out_sentiment = 'Positive'
   if out_sentiment == 'Positive':
       sentiment = 1
   else:
