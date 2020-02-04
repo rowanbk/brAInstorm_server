@@ -13,6 +13,7 @@ def get_link():
 def get_sentiment():
   req_data = request.get_json()
   with open('./json.txt','w') as f:
+    f.writeline("heloo test test")
     f.write(str(req_data))
   #blob = req_data['blob']
   #with open('./blob.txt','w') as f:
