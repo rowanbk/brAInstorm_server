@@ -12,7 +12,8 @@ def get_link():
 @cross_origin(allow_headers=['Content-Type'])
 def get_sentiment():
   req_data = request.get_json()
-  print(req_data)
+  with open('./json.txt','w') as f:
+    f.write(str(req_data))
   #blob = req_data['blob']
   #with open('./blob.txt','w') as f:
     #f.write(blob)
